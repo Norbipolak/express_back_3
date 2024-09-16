@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+     <%- include("../commen/head", {title: "Admin felület"}) %>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Főoldal</a>
+            </li>
+            <li class="<%=page === 'profile' ? 'selected-menu' : ''%>">
+                <a href="/profile">Profile</a>
+            </li>
+            <li class="<%=page === 'ships' ? 'selected-menu' : ''%>">
+                <a href="/ships">Hajók</a>
+            </li>
+        </ul>
+    </nav>
+    <%- body %>
+</body>
+</html>

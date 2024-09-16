@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color:#efefef;
+    border: 1px solid #d8d8d8;
+}
+
+input, button {
+    padding: 8px;
+    margin: 15px auto;
+    display: block;
+}
+
+.box {
+    max-width: 350px;
+    background-color:#efefef;
+    border: 1px solid #d8d8d8;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-red {
+    color: red;
+}
+
+nav {
+    height: 60px;
+    background-color: #165655;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.selected-menu {
+    background-color: #1f6277;
+}
+
+.ships-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+.ship-data {
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    text-align: center;
+}
